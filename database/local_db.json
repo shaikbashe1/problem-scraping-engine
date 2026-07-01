@@ -1,0 +1,112 @@
+[
+    {
+        "id": "LL-000001",
+        "title": "Original AI Sliding Window Challenge",
+        "statement": "Given an array of integers representing the sensor log of a space vessel, find the minimum contiguous subsegment where the variance of coordinates is within safety limits. This challenge focuses on the concept of Variable Window with Medium difficulty.",
+        "difficulty": "Medium",
+        "xp": 50,
+        "tags": [
+            "Array"
+        ],
+        "topic": "Sliding Window",
+        "concept": "Variable Window",
+        "learning_objective": "Dynamic range size calculations",
+        "input_format": "An integer N followed by N integers representing the array coordinates.",
+        "output_format": "An integer representing the length of the minimum subsegment, or -1 if no such segment exists.",
+        "constraints": [
+            "1 <= N <= 10^5",
+            "1 <= coordinates[i] <= 1000"
+        ],
+        "starter_code": {
+            "python": "def solve(n: int, coordinates: list[int]) -> int:\n    # TODO: Implement original sliding window logic\n    return 0\n",
+            "java": "import java.util.*;\n\npublic class Solution {\n    public static int solve(int n, int[] coordinates) {\n        // TODO: Implement solution\n        return 0;\n    }\n}\n",
+            "c": "#include <stdio.h>\n\nint solve(int n, int coordinates[]) {\n    // TODO: Implement solution\n    return 0;\n}\n",
+            "cpp": "#include <vector>\nusing namespace std;\n\nclass Solution {\npublic:\n    int solve(int n, vector<int>& coordinates) {\n        // TODO: Implement solution\n        return 0;\n    }\n};\n",
+            "javascript": "function solve(n, coordinates) {\n    // TODO: Implement solution\n    return 0;\n}\n"
+        },
+        "test_cases": {
+            "public": [
+                {
+                    "input": "5\n1 2 3 4 5",
+                    "output": "2"
+                },
+                {
+                    "input": "3\n10 10 10",
+                    "output": "1"
+                },
+                {
+                    "input": "4\n1 5 10 20",
+                    "output": "-1"
+                }
+            ],
+            "hidden": [
+                {
+                    "input": "1\n50",
+                    "output": "1",
+                    "type": "edge"
+                },
+                {
+                    "input": "1\n1000",
+                    "output": "1",
+                    "type": "edge"
+                },
+                {
+                    "input": "2\n1 1",
+                    "output": "1",
+                    "type": "edge"
+                },
+                {
+                    "input": "6\n2 4 6 8 10 12",
+                    "output": "2",
+                    "type": "random"
+                },
+                {
+                    "input": "5\n5 12 18 20 25",
+                    "output": "3",
+                    "type": "random"
+                },
+                {
+                    "input": "7\n1 2 5 2 1 2 5",
+                    "output": "2",
+                    "type": "random"
+                },
+                {
+                    "input": "8\n100 200 150 120 180 220 200 190",
+                    "output": "3",
+                    "type": "random"
+                },
+                {
+                    "input": "10\n1 2 3 4 5 6 7 8 9 10",
+                    "output": "2",
+                    "type": "large"
+                },
+                {
+                    "input": "20\n2 4 6 8 10 12 14 16 18 20 22 24 26 28 30 32 34 36 38 40",
+                    "output": "2",
+                    "type": "large"
+                },
+                {
+                    "input": "50\n500 500 500 500 500 500 500 500 500 500 500 500 500 500 500 500 500 500 500 500 500 500 500 500 500 500 500 500 500 500 500 500 500 500 500 500 500 500 500 500 500 500 500 500 500 500 500 500 500 500",
+                    "output": "1",
+                    "type": "large"
+                }
+            ]
+        },
+        "hints": [
+            "Think about how the constraints change as you expand your search area. Can you reuse results from a smaller range?",
+            "Use a sliding window. Try moving the right pointer to expand and the left pointer to contract elements.",
+            "To optimize, keep track of elements using a map or a monotonic structure to perform updates in constant time O(1)."
+        ],
+        "editorial": {
+            "brute_force": "Iterate through all possible contiguous subarrays using a nested loop. For each subarray, calculate the min and max coordinates to check variance. Return the minimum length of subarrays satisfying the condition.",
+            "optimal": "Use a sliding window (two pointers) approach. Maintain a sliding window [left, right]. Expand the right pointer to include elements, updating a frequency map or min/max deque. If the current window state violates safety limits, increment the left pointer to contract the window and optimize the length.",
+            "time_complexity": "Brute Force: O(N^2), Optimal: O(N)",
+            "space_complexity": "Brute Force: O(1), Optimal: O(K) where K is the alphabet size or window element range.",
+            "common_mistakes": [
+                "Using a brute force O(N^2) solution which TLEs (Time Limit Exceeded) for N = 10^5.",
+                "Off-by-one errors when expanding the right pointer or shrinking the left pointer.",
+                "Not resetting the sliding window bounds properly when bounds become invalid."
+            ]
+        }
+    }
+]

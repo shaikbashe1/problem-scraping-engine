@@ -1,0 +1,10 @@
+{
+    "topic": "Hopcroft\u2013Karp algorithm",
+    "difficulty": "Hard",
+    "tags": [
+        "Hopcroft\u2013Karp",
+        "Algorithm"
+    ],
+    "concept": "Hopcroft\u2013Karp algorithm",
+    "learning_objective": "Understand the core properties and runtime behavior of Hopcroft\u2013Karp algorithm."
+}

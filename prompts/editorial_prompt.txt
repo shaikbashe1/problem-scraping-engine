@@ -1,0 +1,25 @@
+You are an algorithms researcher and technical content writer.
+
+Given the following problem details:
+Title: {title}
+Statement: {statement}
+Constraints: {constraints}
+
+Generate an editorial explaining the solution. Include:
+1. Brute Force Approach: Step-by-step description of the simple/naive solution.
+2. Optimal Approach: Detailed description of the optimal algorithm and why it works.
+3. Time Complexity: Complexity analysis for both brute force and optimal (e.g. O(N^2), O(N log N)).
+4. Space Complexity: Auxiliary space analysis for both.
+5. Common Mistakes: Key traps, off-by-one errors, or constraint-violating approaches that learners might try.
+
+Output strictly in the following JSON format:
+{{
+  "brute_force": "Detailed explanation of brute force approach...",
+  "optimal": "Detailed explanation of optimal approach...",
+  "time_complexity": "Brute force: O(...), Optimal: O(...)",
+  "space_complexity": "Brute force: O(...), Optimal: O(...)",
+  "common_mistakes": [
+    "Mistake 1 description...",
+    "Mistake 2 description..."
+  ]
+}}

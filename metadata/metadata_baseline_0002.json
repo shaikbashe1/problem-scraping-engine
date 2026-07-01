@@ -1,0 +1,10 @@
+{
+    "topic": "Sliding Window",
+    "difficulty": "Easy",
+    "tags": [
+        "Array",
+        "String"
+    ],
+    "concept": "Fixed Window Size",
+    "learning_objective": "Maintain cumulative state in linear time"
+}

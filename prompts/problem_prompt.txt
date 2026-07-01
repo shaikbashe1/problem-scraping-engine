@@ -1,0 +1,38 @@
+You are an expert algorithms instructor and competitive programming problem setter.
+
+Generate a completely ORIGINAL, UNIQUE, and CREATIVE coding problem based on the following metadata:
+Topic: {topic}
+Input Difficulty Level: {difficulty}
+Tags: {tags}
+Concept: {concept}
+
+CRITICAL RULES:
+1. DO NOT copy or republish any existing copyrighted problem from platforms like LeetCode, Codeforces, HackerRank, etc.
+2. The scenario and story should be unique and premium (e.g. space exploration, data center routing, smart city systems, resource allocations).
+3. The problem statement must be self-contained, mathematically rigorous, and clear.
+4. Define clear constraints (e.g., array size N, values of elements) which match the requested difficulty level.
+5. Provide the output in the following JSON format ONLY. Do not wrap it in markdown or triple-backticks unless requested, or output any pre-amble/post-amble. Keep it strictly parseable as JSON.
+
+Expected JSON Structure:
+{{
+  "title": "A short, catchy, original title",
+  "statement": "Detailed problem description and story...",
+  "constraints": [
+    "1 <= N <= 10^5",
+    "-10^9 <= A[i] <= 10^9"
+  ],
+  "input_format": "Description of input structure...",
+  "output_format": "Description of output structure...",
+  "examples": [
+    {{
+      "input": "Example 1 Input representation",
+      "output": "Example 1 Expected Output representation",
+      "explanation": "Step-by-step description of why the input yields this output."
+    }},
+    {{
+      "input": "Example 2 Input representation",
+      "output": "Example 2 Expected Output representation",
+      "explanation": "Explanation of Example 2..."
+    }}
+  ]
+}}

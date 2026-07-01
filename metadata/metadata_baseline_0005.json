@@ -1,0 +1,10 @@
+{
+    "topic": "Binary Search",
+    "difficulty": "Medium",
+    "tags": [
+        "Array",
+        "Binary Search"
+    ],
+    "concept": "Search space reduction",
+    "learning_objective": "Perform binary search on answer range"
+}

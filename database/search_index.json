@@ -1,0 +1,47 @@
+{
+    "keywords": {
+        "array": [
+            "LL-000001"
+        ],
+        "sliding": [
+            "LL-000001"
+        ],
+        "window": [
+            "LL-000001"
+        ],
+        "50": [
+            "LL-000001"
+        ],
+        "challenge": [
+            "LL-000001"
+        ],
+        "original": [
+            "LL-000001"
+        ],
+        "bruteforceon2optimalon": [
+            "LL-000001"
+        ],
+        "medium": [
+            "LL-000001"
+        ],
+        "ai": [
+            "LL-000001"
+        ],
+        "bruteforceo1optimalokwherekisthealphabetsizeorwindowelementrange": [
+            "LL-000001"
+        ]
+    },
+    "problems": {
+        "LL-000001": {
+            "title": "Original AI Sliding Window Challenge",
+            "difficulty": "Medium",
+            "tags": [
+                "Array"
+            ],
+            "topic": "Sliding Window",
+            "xp": 50,
+            "time_complexity": "Brute Force: O(N^2), Optimal: O(N)",
+            "space_complexity": "Brute Force: O(1), Optimal: O(K) where K is the alphabet size or window element range."
+        }
+    }
+}

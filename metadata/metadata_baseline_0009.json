@@ -1,0 +1,11 @@
+{
+    "topic": "Depth First Search",
+    "difficulty": "Medium",
+    "tags": [
+        "Graph",
+        "DFS",
+        "Tree"
+    ],
+    "concept": "Backtracking search",
+    "learning_objective": "Explore recursive path traversal"
+}

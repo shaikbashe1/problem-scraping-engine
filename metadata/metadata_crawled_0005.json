@@ -1,0 +1,10 @@
+{
+    "topic": "Coloring algorithm",
+    "difficulty": "Medium",
+    "tags": [
+        "Coloring",
+        "Algorithm"
+    ],
+    "concept": "Coloring algorithm",
+    "learning_objective": "Understand the core properties and runtime behavior of Coloring algorithm."
+}

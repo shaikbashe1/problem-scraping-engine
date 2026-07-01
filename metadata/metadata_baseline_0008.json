@@ -1,0 +1,10 @@
+{
+    "topic": "Breadth First Search",
+    "difficulty": "Medium",
+    "tags": [
+        "Graph",
+        "BFS"
+    ],
+    "concept": "Shortest path in unweighted graph",
+    "learning_objective": "Explore layer-by-layer traversal"
+}

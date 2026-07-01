@@ -1,0 +1,10 @@
+{
+    "topic": "Dynamic Programming",
+    "difficulty": "Hard",
+    "tags": [
+        "Dynamic Programming",
+        "Grid"
+    ],
+    "concept": "2D Grid Path optimization",
+    "learning_objective": "Minimize path cost on state grids"
+}

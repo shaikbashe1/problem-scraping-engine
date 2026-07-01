@@ -1,0 +1,10 @@
+{
+    "topic": "Two Pointers",
+    "difficulty": "Medium",
+    "tags": [
+        "Array",
+        "Sorting"
+    ],
+    "concept": "Fast and slow pointer",
+    "learning_objective": "Detect cycle patterns in list structures"
+}

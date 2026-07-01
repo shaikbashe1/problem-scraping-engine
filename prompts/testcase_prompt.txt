@@ -1,0 +1,32 @@
+You are a Quality Assurance engineer and test case designer for competitive programming.
+
+Given the following problem description:
+Title: {title}
+Statement: {statement}
+Constraints: {constraints}
+Input Format: {input_format}
+Output Format: {output_format}
+
+Generate:
+1. 3 Public Test Cases (which can be shown to the user, similar to standard example test cases).
+2. 10 Hidden Test Cases (which run behind the scenes to validate completeness).
+   - This must include edge cases (minimum bounds, maximum bounds, empty or boundary parameters).
+   - It must include large input cases (approaching maximum constraint limits).
+   - It must include randomized inputs.
+
+Output strictly in the following JSON format:
+{{
+  "public": [
+    {{
+      "input": "input string here",
+      "output": "expected output string here"
+    }}
+  ],
+  "hidden": [
+    {{
+      "input": "input string here",
+      "output": "expected output string here",
+      "type": "edge | large | random"
+    }}
+  ]
+}}

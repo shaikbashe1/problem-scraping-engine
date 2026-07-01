@@ -1,0 +1,10 @@
+{
+    "topic": "Brent's algorithm",
+    "difficulty": "Medium",
+    "tags": [
+        "Brent's",
+        "Algorithm"
+    ],
+    "concept": "Brent's algorithm",
+    "learning_objective": "Understand the core properties and runtime behavior of Brent's algorithm."
+}

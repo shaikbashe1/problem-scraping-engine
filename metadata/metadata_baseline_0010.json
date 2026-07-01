@@ -1,0 +1,10 @@
+{
+    "topic": "Dynamic Programming",
+    "difficulty": "Medium",
+    "tags": [
+        "Dynamic Programming",
+        "Memoization"
+    ],
+    "concept": "1D State Transition",
+    "learning_objective": "Optimize recursive subproblems"
+}

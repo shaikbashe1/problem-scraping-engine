@@ -1,0 +1,10 @@
+{
+    "topic": "Floyd's cycle-finding algorithm",
+    "difficulty": "Hard",
+    "tags": [
+        "Floyd's",
+        "Algorithm"
+    ],
+    "concept": "Floyd's cycle-finding algorithm",
+    "learning_objective": "Understand the core properties and runtime behavior of Floyd's cycle-finding algorithm."
+}

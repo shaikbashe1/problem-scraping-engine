@@ -1,0 +1,10 @@
+{
+    "topic": "Binary Search",
+    "difficulty": "Hard",
+    "tags": [
+        "Array",
+        "Optimization"
+    ],
+    "concept": "Maximize minimum distance",
+    "learning_objective": "Find optimal threshold in structured intervals"
+}

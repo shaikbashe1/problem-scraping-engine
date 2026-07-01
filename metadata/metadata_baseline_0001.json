@@ -1,0 +1,10 @@
+{
+    "topic": "Sliding Window",
+    "difficulty": "Medium",
+    "tags": [
+        "Array",
+        "Two Pointer"
+    ],
+    "concept": "Variable Window Size",
+    "learning_objective": "Optimize subsegment tracking dynamically"
+}

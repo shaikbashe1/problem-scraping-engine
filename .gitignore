@@ -1,0 +1,18 @@
+# Environment files
+.env
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Log files
+logs/*.log
+logs/*.txt
+
+# Local temporary/scratch items
+.idea/
+.vscode/
+venv/
+env/

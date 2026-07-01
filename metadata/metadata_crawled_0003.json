@@ -1,0 +1,10 @@
+{
+    "topic": "Gale\u2013Shapley algorithm",
+    "difficulty": "Medium",
+    "tags": [
+        "Gale\u2013Shapley",
+        "Algorithm"
+    ],
+    "concept": "Gale\u2013Shapley algorithm",
+    "learning_objective": "Understand the core properties and runtime behavior of Gale\u2013Shapley algorithm."
+}

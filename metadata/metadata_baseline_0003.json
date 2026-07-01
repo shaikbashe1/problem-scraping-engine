@@ -1,0 +1,10 @@
+{
+    "topic": "Two Pointers",
+    "difficulty": "Easy",
+    "tags": [
+        "Array",
+        "Two Pointer"
+    ],
+    "concept": "Opposite ends convergence",
+    "learning_objective": "Find pairs satisfying sorting bounds"
+}

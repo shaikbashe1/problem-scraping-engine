@@ -1,0 +1,10 @@
+{
+    "topic": "Prefix Sum",
+    "difficulty": "Easy",
+    "tags": [
+        "Array",
+        "Prefix Sum"
+    ],
+    "concept": "Range query indexing",
+    "learning_objective": "Perform dynamic constant-time sum queries"
+}

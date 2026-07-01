@@ -1,0 +1,10 @@
+{
+    "topic": "Hungarian algorithm",
+    "difficulty": "Medium",
+    "tags": [
+        "Hungarian",
+        "Algorithm"
+    ],
+    "concept": "Hungarian algorithm",
+    "learning_objective": "Understand the core properties and runtime behavior of Hungarian algorithm."
+}

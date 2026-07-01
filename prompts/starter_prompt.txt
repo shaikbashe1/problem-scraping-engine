@@ -1,0 +1,28 @@
+You are a technical code compiler and senior developer.
+Given the following coding problem details:
+Title: {title}
+Statement: {statement}
+Input Format: {input_format}
+Output Format: {output_format}
+Constraints: {constraints}
+
+Generate boilerplate starter code files for the following languages:
+1. Python (3)
+2. Java
+3. C
+4. C++
+5. JavaScript
+
+CRITICAL RULES:
+1. Keep names and signature parameters consistent across languages.
+2. The user will write code inside the provided function or class method.
+3. Provide standard main entry methods or input/output parsers if applicable, or a clean solution method. Let the primary method be named `solve` or based on the problem title.
+4. Output the results strictly in the following JSON format:
+
+{{
+  "python": "def solve(args):\n    # Write your code here\n    pass",
+  "java": "public class Solution {{\n    public static void main(String[] args) {{\n        // Entry point\n    }}\n    public static void solve() {{\n        // Write code here\n    }}\n}}",
+  "c": "void solve() {{\n    // Write code here\n}}",
+  "cpp": "class Solution {{\npublic:\n    void solve() {{\n        // Write code here\n    }}\n}};",
+  "javascript": "function solve() {{\n    // Write code here\n}}"
+}}

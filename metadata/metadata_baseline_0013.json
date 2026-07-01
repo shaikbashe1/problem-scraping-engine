@@ -1,0 +1,10 @@
+{
+    "topic": "Monotonic Stack",
+    "difficulty": "Medium",
+    "tags": [
+        "Stack",
+        "Monotonic Stack"
+    ],
+    "concept": "Next Greater Element",
+    "learning_objective": "Track previous or next optimal indexes in linear time"
+}

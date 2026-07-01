@@ -1,0 +1,10 @@
+{
+    "topic": "Heaps & Priority Queues",
+    "difficulty": "Medium",
+    "tags": [
+        "Heap",
+        "Priority Queue"
+    ],
+    "concept": "K-way Merge",
+    "learning_objective": "Maintain ordered elements in dynamic collections"
+}
